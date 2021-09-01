@@ -1,6 +1,6 @@
-# study-notion
+# notion-slack-reminder
 
-Sample codes for playing with Notion API.
+Sends a reminder of contents in Notion.so to Slack.
 
 ## Setup
 
