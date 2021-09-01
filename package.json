@@ -1,0 +1,17 @@
+{
+  "name": "study-notion",
+  "version": "1.0.0",
+  "author": "Yusuke Sakai",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^0.3.1",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "build": "esbuild app.ts --outdir=. --minify --sourcemap --bundle --platform=node",
+    "start": "node -r dotenv/config ./app.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.24"
+  }
+}
