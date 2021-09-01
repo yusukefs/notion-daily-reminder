@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "esbuild app.ts --outdir=. --minify --sourcemap --bundle --platform=node",
-    "start": "node -r dotenv/config ./app.js"
+    "run_once": "node -r dotenv/config ./app.js",
+    "start": "npm run build && npm run run_once"
   },
   "devDependencies": {
     "esbuild": "^0.12.24"

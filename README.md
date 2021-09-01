@@ -19,6 +19,5 @@ Add the following environmental variables to `.env` file.
 ## Run!
 
 ```sh
-yarn build
 yarn start
 ```
