@@ -22,7 +22,7 @@ async function publishMessageToSlack(blocks: SlackBlock[]) {
   }
 }
 
-function convertNotionBlockToSlackBlock(block: NotionBlock): SlackBlock {
+function convertNotionBlockToSlackBlock(block: NotionBlock): SlackBlock | undefined | null {
   switch (block.type) {
     case "heading_1":
     case "heading_2":
